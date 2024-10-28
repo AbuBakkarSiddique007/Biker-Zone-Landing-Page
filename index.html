@@ -444,15 +444,17 @@
 
     <!-- Footer Section -->
     <footer class="footer bg-neutral text-neutral-content p-10 mx-auto">
-        <div class="md:container mx-auto flex justify-between">
+        <div class="container mx-auto flex flex-col lg:flex-row justify-between gap-8 lg:gap-0">
 
-            <aside class="flex flex-col space-y-3">
-                <ul class="flex gap-8">
+
+            <div class="flex flex-col space-y-6 text-center lg:text-left">
+                <ul class="flex flex-wrap justify-center gap-4 lg:justify-start">
                     <li><a href="#">Download Now</a></li>
                     <li><a href="#">License</a></li>
                 </ul>
 
-                <ul class="flex gap-8">
+
+                <ul class="flex flex-wrap justify-center gap-4 lg:justify-start">
                     <li><a href="#">About</a></li>
                     <li><a href="#">Features</a></li>
                     <li><a href="#">Careers</a></li>
@@ -460,24 +462,23 @@
                     <li><a href="#">Privacy</a></li>
                     <li><a href="#">Policy</a></li>
                 </ul>
-                <p class="text-lg font-bold">
+
+                
+                <p class="text-lg font-bold text-center lg:text-left">
                     &copy; 2024 Bike ALL Rights are reserved!
                 </p>
-            </aside>
-            <nav>
-                <h6 class="footer-title">Get the App</h6>
-                <div class="flex flex-col space-y-3">
-                    <a>
-                        <img class="w-28" src="./images/others/ios.png" alt="">
-                    </a>
-                    <a>
-                        <img class="w-28" src="./images/others/android.png" alt="">
-                    </a>
-                </div>
-            </nav>
+            </div>
 
+            <div class="text-center lg:text-left">
+                <h6 class="footer-title text-xl font-semibold mb-4">Get the App</h6>
+                <div class="flex justify-center lg:justify-start gap-3">
+                    <a href="#"><img class="w-28" src="./images/others/ios.png" alt="iOS App"></a>
+                    <a href="#"><img class="w-28" src="./images/others/android.png" alt="Android App"></a>
+                </div>
+            </div>
         </div>
     </footer>
+
 
 </body>
 
